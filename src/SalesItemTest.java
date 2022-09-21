@@ -16,21 +16,21 @@ import static org.junit.Assert.*;
  * @author marda237
  */
 public class SalesItemTest {
-    
+
     /**
      * Default constructor for test class SalesItemTest
      */
     public SalesItemTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
 
 
     /**
@@ -40,7 +40,7 @@ public class SalesItemTest {
      */
     @Before
     public void setUp() {
-        
+
         //TODO: Implement set-up bench of two salesItem-object, add a comment to the second salesItem.
         //TODO: Add automised test based on those objects in test-methods
     }
