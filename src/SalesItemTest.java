@@ -90,7 +90,10 @@ public class SalesItemTest {
     public void testInit()
     {
         //TODO: Implement test for initialization of SalesItem. Assert value of instance variables when caling get()-methods.
+        var salesItem = new SalesItem("Drönare", 11300);
 
+        assertEquals("Drönare", salesItem.getName());
+        assertEquals(11300, salesItem.getPrice());
     }
 
     @Test
