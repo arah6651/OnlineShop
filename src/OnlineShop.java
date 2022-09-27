@@ -16,6 +16,8 @@ public class OnlineShop {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        var salesItem = new SalesItem("Smartklocka", 1900);
+
     }
     
 }

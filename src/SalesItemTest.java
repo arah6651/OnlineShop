@@ -65,7 +65,10 @@ public class SalesItemTest {
     public void testAddComment()
     {
         //TODO: Implement test for adding a comment to a SalesItem. Assert number of comments.
+        var salesItem = new SalesItem("Damsugare", 900);
+        salesItem.addComment("aref", "Kanonbra", 4);
 
+        assertEquals(1, salesItem.getNumberOfComments());
     }
 
     /**

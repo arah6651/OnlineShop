@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795b92ce-aa2f-4f7d-ac89-4034cf6ddabe" name="Changes" comment="Add JUnit testing for SalesItem class">
+    <list default="true" id="795b92ce-aa2f-4f7d-ac89-4034cf6ddabe" name="Changes" comment="Implement the ToDos in setUp() in test class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SalesItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,23 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="SalesItemTest.testAddComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SalesItemTest" />
+      <option name="METHOD_NAME" value="testAddComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SalesItemTest.testAddComment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +97,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1663761650521</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Implement the ToDos in setUp() in test class.">
+      <created>1664273933909</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1664273933909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add JUnit testing for SalesItem class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit testing for SalesItem class" />
+    <MESSAGE value="Implement the ToDos in setUp() in test class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the ToDos in setUp() in test class." />
   </component>
 </project>
