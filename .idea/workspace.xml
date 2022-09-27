@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795b92ce-aa2f-4f7d-ac89-4034cf6ddabe" name="Changes" comment="Implement the ToDos in setUp() in test class.">
+    <list default="true" id="795b92ce-aa2f-4f7d-ac89-4034cf6ddabe" name="Changes" comment="Implement the ToDos in testAddComment() and the result successful.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SalesItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SalesItemTest.testIllegalRating">
     <configuration name="SalesItemTest.testAddComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnlineShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,8 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalesItemTest.testIllegalRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SalesItemTest" />
+      <option name="METHOD_NAME" value="testIllegalRating" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesItemTest.testIllegalRating" />
         <item itemvalue="JUnit.SalesItemTest.testAddComment" />
       </list>
     </recent_temporary>
@@ -103,7 +113,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1664273933909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Implement the ToDos in testAddComment() and the result successful.">
+      <created>1664274651840</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1664274651840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +137,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add JUnit testing for SalesItem class" />
     <MESSAGE value="Implement the ToDos in setUp() in test class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the ToDos in setUp() in test class." />
+    <MESSAGE value="Implement the ToDos in testAddComment() and the result successful." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the ToDos in testAddComment() and the result successful." />
   </component>
 </project>

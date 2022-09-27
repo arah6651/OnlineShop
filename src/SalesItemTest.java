@@ -78,7 +78,9 @@ public class SalesItemTest {
     public void testIllegalRating()
     {
         //TODO: Implement test for illegal rating. Assert incoming values for rating in constructor is false.
+        var salesItem = new SalesItem("Smart Damsugare", 6900);
 
+        assertFalse(salesItem.addComment("aref", "Supernöjd", 10));
     }
 
     /**
