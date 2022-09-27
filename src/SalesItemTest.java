@@ -100,6 +100,8 @@ public class SalesItemTest {
     public void addComment()
     {
         //TODO: Implement test for adding a comment to a SalesItem. Assert incoming values for constructor is true
+        var salesItem = new SalesItem("Pokemon Kort", 399);
 
+        assertTrue(salesItem.addComment("aref", "I'm the collector!", 5));
     }
 }
