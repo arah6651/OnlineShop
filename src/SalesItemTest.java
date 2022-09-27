@@ -42,7 +42,12 @@ public class SalesItemTest {
     public void setUp() {
 
         //TODO: Implement set-up bench of two salesItem-object, add a comment to the second salesItem.
+        var salesItem1 = new SalesItem("True Wireless Hörlurar", 2400);
+        var salesItem2 = new SalesItem("Gamingskärm", 5600);
+        salesItem2.addComment("aref", "Supernöjd", 5);
+
         //TODO: Add automised test based on those objects in test-methods
+        testAddComment();
     }
     /**
      * Tears down the test fixture.
